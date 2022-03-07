@@ -209,6 +209,9 @@ function MyComponent(props) {
         if (name === 'MetaMask') {
           url = '/connectors/icn-metamask.svg'
           descriptor= 'Connect to your MetaMask wallet'
+        } else if (name === 'OneKey') {
+          url = '/connectors/icn-onekey.svg'
+          descriptor= 'Connect to your OneKey wallet'
         } else if (name === 'WalletConnect') {
           url = '/connectors/walletConnectIcon.svg'
           descriptor= 'Scan with WalletConnect to connect'
