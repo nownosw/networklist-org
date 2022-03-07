@@ -85,17 +85,19 @@
 }
 
 .helpingUnderline {
-  color: #2f80ed;
+  color: #00B812;
 }
 
 .helpingParagraph {
   margin-bottom: 30px !important;
   max-width: 320px;
+  color: #3F6843;
 }
 
 .addNetworkButton {
   margin-top: 50px !important;
   width: fit-content;
+  color: #00B812;
 }
 
 .filterRow {

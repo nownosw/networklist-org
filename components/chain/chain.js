@@ -84,7 +84,7 @@ export default function Chain({ chain }) {
       }
       return providerTextList[getProvider()]
     } else {
-      return 'Connect wallet'
+      return '连接钱包'
     }
 
   }
@@ -116,11 +116,11 @@ export default function Chain({ chain }) {
       </div>
       <div className={ classes.chainInfoContainer }>
         <div className={ classes.dataPoint }>
-          <Typography variant='subtitle1' color='textSecondary' className={ classes.dataPointHeader} >ChainID</Typography>
+          <Typography variant='subtitle1' color='textSecondary' className={ classes.dataPointHeader} >链 ID </Typography>
           <Typography variant='h5'>{ chain.chainId }</Typography>
         </div>
         <div className={ classes.dataPoint }>
-          <Typography variant='subtitle1' color='textSecondary' className={ classes.dataPointHeader}>Currency</Typography>
+          <Typography variant='subtitle1' color='textSecondary' className={ classes.dataPointHeader}>主网代币名称</Typography>
           <Typography variant='h5'>{ chain.nativeCurrency ? chain.nativeCurrency.symbol : 'none' }</Typography>
         </div>
       </div>

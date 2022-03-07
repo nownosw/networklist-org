@@ -11,7 +11,7 @@ const theme = createMuiTheme({
       paper: '#2B2E3C'
     },
     primary: {
-      main: '#2F80ED',
+      main: '#00B812',
     },
     type: 'dark',
   },
@@ -22,7 +22,7 @@ const theme = createMuiTheme({
       outlinedPrimary: {
         border: '1px solid #FFFFFF1A',
         "&:hover": {
-          backgroundColor: '#2F80ED !important',
+          backgroundColor: '#00B812 !important',
           color: '#fff'
         }
       }
