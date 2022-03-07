@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - onekey
+      - main
   pull_request:
     branches:
       - onekey
+      - main
 jobs:
   dev:
     runs-on: ubuntu-latest
