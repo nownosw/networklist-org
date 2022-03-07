@@ -114,6 +114,7 @@ function Header(props) {
   const renderProviderLogo = () => {
     const providerLogoList = {
       Metamask: 'metamask',
+      OneKey: 'onekey',
       imToken: 'imtoken',
       Wallet: 'metamask',
     }
